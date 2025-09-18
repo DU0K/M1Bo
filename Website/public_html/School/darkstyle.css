@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 97, 144);
+}
+
+header{
+    background-color: rgb(40, 40, 44);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header a{
+    text-decoration: none;
+    float: right;
+    display: flex;
+    padding: 10px 4vw;
+    color: rgb(0, 0, 0);
+    font-size: 5vw;
+    font-family: "Tagesschrift", system-ui;
+}
+
+.SvenBras{
+    display: flex;
+    flex-basis: auto;
+}
+
+.SvenBras img{
+    padding: 80px;
+    width: 40%;
+    height: 40%;
+}
+
+.SvenBras div{
+    text-align: right;
+    flex: 100%;
+}
+
+h1{
+    font-family: "Tagesschrift", system-ui;
+    color: rgb(255, 249, 87);
+    font-size: 6vw;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 30%;
+    text-align: left;
+    margin: 0%;
+}
+
+p{
+    color: rgb(40, 40, 44);
+    font-family: "Tagesschrift", system-ui;
+    margin: 0;
+    font-size: 2.5vw;
+    padding-right: 50px;
+    padding-left: 30%;
+    text-align: left;
+    margin: 10px;
+}
+
+.krommenie{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
+
+.krommenie img{
+    padding: 80px;
+    width: 40%;
+    height: auto;
+    margin: 0%;
+}
+
+.krommenie div{
+    flex: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.divright{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.muziek{
+    display: flex;
+    flex-basis: auto;
+}
+
+.muziek img{
+    padding: 80px;
+    margin: 0%;
+    width: 40%;
+    height: auto;
+}
+.muziek div{
+    flex: 100%;
+    text-align: left;
+
+}
+
+footer{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgb(69, 69, 69);
+}
+
+.Kwaliteiten{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
+
+.Kwaliteiten img{
+    padding: 80px;
+    width: 40%;
+    height: auto;
+    margin: 0%;
+}
+
+.Kwaliteiten div{
+    flex: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.toptwee h1{
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+}
+
+.toptwee p{
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+}
